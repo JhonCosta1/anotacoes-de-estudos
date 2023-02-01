@@ -20,7 +20,7 @@ let compras = [...frutas1, ...frutas2];
 
 //===========================================
 
-//Conjutos - não aceita repetição de dados, sem index
+//Conjuntos - não aceita repetição de dados, sem index
 
 let cursos = new Set();
 
@@ -36,3 +36,23 @@ console.log(cursos.has('Banco de dados'));
 
 //deletar elemento de conjunto
 cursos.delete('Programação em C');
+
+//===========================================
+
+// For of
+
+let nome = 'Jhon costa'
+
+for(let letra of nome){
+    console.log(letra);
+}
+
+let numeros = [1, 2 ,3 ,4 ,5]
+
+for(let numero of numeros){
+    console.log(numero * 2);
+}
+
+
+
+
