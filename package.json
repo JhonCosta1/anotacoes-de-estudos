@@ -1,0 +1,9 @@
+{
+  "name": "aulaBabel",
+  "version": "1.0.0",
+  "description": "aula de babel",
+  "main": "index.js",
+  "repository": "https://github.com/JhonCosta1/anotacoes-de-estudos.git",
+  "author": "Jhon Costa <jhon.costa.dev@gmail.com>",
+  "license": "MIT"
+}
