@@ -4,6 +4,9 @@ module.exports = {
         path: __dirname,
         filename: './bundle',
     },
+    devServer: {
+        contentBase: __dirname + '/public',
+    },
     module: {
         rules: [
             {
