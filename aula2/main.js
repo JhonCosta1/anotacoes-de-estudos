@@ -11,6 +11,10 @@
 //BigInt - número maiores que 2*5-3
 //Undefined - valor não atribuido, espaço sem nada
 
+//Null - ausencia intecional de um valor de objeto
+//Undefined - variável sem valor atribuido
+
+//JavaScript - diferencia letra maiúscula de minúscula
 
 
 
