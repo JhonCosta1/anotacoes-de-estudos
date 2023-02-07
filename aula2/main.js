@@ -17,7 +17,22 @@
 //JavaScript - diferencia letra maiúscula de minúscula
 
 
+let idProduto = 00001;
+let nomeProduto = 'Toddy';
+let precoProduto = 15.99;
+let validadeProduto = true;
 
-let estudar = true
+let nomeProduto1 = 'Nescau';
+let precoProduto1 = 14.99;
+let validadeProduto1 = true;
 
-console.log(estudar);
+if(idProduto === 00002){
+    console.log(nomeProduto);
+    console.log(precoProduto);
+    console.log(validadeProduto);
+}else{
+    console.log(nomeProduto1);
+    console.log(precoProduto1);
+    console.log(validadeProduto);
+}
+
