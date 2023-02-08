@@ -44,4 +44,6 @@ if(idProduto === 00002){
 
 
 //ESTRUTURAS CONDICIONAIS
-//
+// IF
+// ELSE
+// ELSE IF
