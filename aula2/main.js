@@ -41,3 +41,7 @@ if(idProduto === 00002){
     console.log(validadeProduto);
 }
 
+
+
+//ESTRUTURAS CONDICIONAIS
+//
