@@ -16,6 +16,11 @@
 
 //JavaScript - diferencia letra maiúscula de minúscula
 
+//Móduo % - número % de x = 0 é par ,  número % de x = 1 é impar
+
+//Números especiais: Infinity+ ou - // NaN - not a number, operação falha
+
+
 
 let idProduto = 00001;
 let nomeProduto = 'Toddy';
