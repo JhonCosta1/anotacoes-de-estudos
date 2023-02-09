@@ -77,3 +77,6 @@ if(corredorC === vencedor){
 }else{
     console.log(`Lamento Corredor, você perdeu!!`)
 };
+
+
+//LAÇOS DE REPETIÇÃO
