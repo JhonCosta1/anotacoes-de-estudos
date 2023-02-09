@@ -99,3 +99,7 @@ for(let i = 1; i <= 10; i++){
 
     console.log(i);
 }
+
+// WHILE - ação deve continuar até parada
+// enquanto for true, faça algo.
+// while(condição) {}
