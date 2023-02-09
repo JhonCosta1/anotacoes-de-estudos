@@ -106,3 +106,7 @@ for(let i = 1; i <= 10; i++){
 
 
 // DO WHILE - executa código, depois verifica
+//Para quando codição é falsa
+
+//BREAK - sair do laço antes de concluir todas as condição
+// passa para código seguinte
