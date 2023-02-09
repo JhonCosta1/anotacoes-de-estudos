@@ -21,7 +21,7 @@
 //Números especiais: Infinity+ ou - // NaN - not a number, operação falha
 
 
-
+/*
 let idProduto = 00001;
 let nomeProduto = 'Toddy';
 let precoProduto = 15.99;
@@ -40,6 +40,7 @@ if(idProduto === 00002){
     console.log(precoProduto1);
     console.log(validadeProduto);
 }
+*/
 
 
 
@@ -63,3 +64,16 @@ switch (expressão) {
 //OPERADORES TERNARIO - inicializar variavel
 
 // e ? "true" : "false"
+
+let corredorA = 15
+let corredorB = 14
+let corredorC = 13
+
+let vencedor = 13
+
+if(corredorC === vencedor){
+
+    console.log(`Parabéns Corredor, você venceu!!`)
+}else{
+    console.log(`Lamento Corredor, você perdeu!!`)
+};
