@@ -65,7 +65,7 @@ switch (expressão) {
 
 // e ? "true" : "false"
 
-let corredorA = 15
+/* let corredorA = 15
 let corredorB = 14
 let corredorC = 13
 
@@ -76,7 +76,26 @@ if(corredorC === vencedor){
     console.log(`Parabéns Corredor, você venceu!!`)
 }else{
     console.log(`Lamento Corredor, você perdeu!!`)
-};
+}; */
 
 
 //LAÇOS DE REPETIÇÃO
+
+/*
+contador = 1
+
+enquanto contador <= 50, faça:
+    console.log(contador);
+    contator++;
+
+*/
+
+//FOR repete com número definido de repetições
+// for(atribuição; condição; atualização){bloco de codigo}
+
+
+
+for(let i = 1; i <= 10; i++){
+
+    console.log(i);
+}
