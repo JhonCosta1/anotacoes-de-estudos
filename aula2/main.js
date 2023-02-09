@@ -110,3 +110,4 @@ for(let i = 1; i <= 10; i++){
 
 //BREAK - sair do laço antes de concluir todas as condição
 // passa para código seguinte
+// CONTINUE -retorna as condições verdadeiras
