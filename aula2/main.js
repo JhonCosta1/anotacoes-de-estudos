@@ -58,3 +58,8 @@ switch (expressão) {
 }
 
 */
+
+
+//OPERADORES TERNARIO - inicializar variavel
+
+// e ? "true" : "false"
