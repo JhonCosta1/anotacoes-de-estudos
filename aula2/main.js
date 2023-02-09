@@ -101,5 +101,8 @@ for(let i = 1; i <= 10; i++){
 }
 
 // WHILE - ação deve continuar até parada
-// enquanto for true, faça algo.
+// enquanto for true, faça algo
 // while(condição) {}
+
+
+// DO WHILE - executa código, depois verifica
