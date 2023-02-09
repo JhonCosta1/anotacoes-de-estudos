@@ -47,3 +47,14 @@ if(idProduto === 00002){
 // IF
 // ELSE
 // ELSE IF
+
+/*
+switch (expressão) {
+
+    case "nome":
+        console.log('x');
+        break;
+
+}
+
+*/
