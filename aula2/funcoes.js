@@ -29,8 +29,18 @@ let taxaJuros;
 let numAnos;
 let bomPagador;
 
-function cadastrarCliente(nomeCliente, sobrenomeCliente, idadeCliente,
-    valorEmprestimoCliente, numAnosCliente, bomPagadorCliente){
-        
+function cadastrarCliente(nomeCliente, sobrenomeCliente, idadeCliente, valorEmprestimoCliente, numAnosCliente, bomPagadorCliente){
+    
+    nome = nomeCliente;
+    sobrenome = sobrenomeCliente;
+    idade = idadeCliente;
+    valorEmprestimo = valorEmprestimoCliente;
+    numAnos = numAnosCliente;
+    bomPagador = bomPagadorCliente;
+
 
 }
+
+cadastrarCliente("Jhon", "Costa", 25, 12000, 1, true);
+
+console.log(nome, sobrenome, idade, valorEmprestimo, numAnos, bomPagador)
