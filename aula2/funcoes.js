@@ -140,9 +140,6 @@ const resultado = calcularMedia(5, 312321, 5);
 
 console.log(resultado);
 
-*/
-
-
 let imPar = function(numero){
 
     let calcular = numero % 2;
@@ -160,3 +157,6 @@ let imPar = function(numero){
 let resultado1 = imPar(5);
 
 console.log(resultado1);
+
+*/
+
