@@ -205,3 +205,55 @@ tempoHoje();
 
 //PARÊMETRO REST
 
+    
+
+
+    function interrogar(){
+
+        let contadorSim = 0;
+        let pergunta1 = prompt("Telefonou para vítima?");
+        let pergunta2 = prompt("Esteve no local?");
+        let pergunta3 = prompt("Mora perto da vítima?");
+        let pergunta4 = prompt("Devia para vítima?");
+        let pergunta5 = prompt("Trabalhou para vítima?");
+
+        if(pergunta1 === "sim"){
+
+            contadorSim += 1;
+        }
+        if(pergunta2 === "sim"){
+
+            contadorSim += 1;
+        }
+        if(pergunta3 === "sim"){
+
+            contadorSim += 1;
+        }
+        if(pergunta4 === "sim"){
+
+            contadorSim += 1;
+        }
+        if(pergunta5 === "sim"){
+
+            contadorSim += 1;
+        }
+
+        return contadorSim;
+}
+
+function classificarSuspeito(contadorSim){
+
+    if(contadorSim === 5){
+        console.log("Você é o Assassino! Está preso!");
+    }else if(contadorSim === 4 || contadorSim === 3){
+        console.log("Você é o Cúmplice! Está preso!");
+    }else if(contadorSim === 2){
+        console.log("Você é suspeito!");
+    }else{
+        console.log("Você é inocente!");
+    }
+
+}
+
+
+classificarSuspeito();
