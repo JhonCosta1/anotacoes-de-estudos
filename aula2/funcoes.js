@@ -162,4 +162,12 @@ console.log(resultado1);
 
 //ARROW FUNCTION
 
-const media = 
+const calcularMedia = (number1, number2, number3) => {
+    let media = (number1 + number2 + number3) / 3;
+
+    return media;
+};
+
+let resultado = calcularMedia;
+
+console.log(resultado(5, 517, 5))
