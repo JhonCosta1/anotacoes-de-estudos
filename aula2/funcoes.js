@@ -158,7 +158,6 @@ let resultado1 = imPar(5);//
 
 console.log(resultado1);
 
-*/
 
 //ARROW FUNCTION
 
@@ -171,3 +170,9 @@ const calcularMedia = (number1, number2, number3) => {
 let resultado = calcularMedia;
 
 console.log(resultado(5, 517, 5))
+
+*/
+
+//ESCOPO DE FUNÇÕES - Global x Local
+
+
