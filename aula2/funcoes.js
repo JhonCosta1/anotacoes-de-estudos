@@ -64,7 +64,9 @@ const media2 = function (num1, num2, num3){
     return mediaNum;
 } 
 
-*/function calcularMedia(nota1, nota2, nota3){
+*/
+/* 
+function calcularMedia(nota1, nota2, nota3){
 
     let mediaFinal = (nota1 + nota2 + nota3) / 3;
     
@@ -83,12 +85,50 @@ const media2 = function (num1, num2, num3){
 };
 
 
-calcularMedia(10, 10, 10)
+calcularMedia(10, 10, 10); 
+
+*/
+
+/*
+
+//FUNÇÃO ANONIMA
+
+const calcularMedia = function(nota1, nota2, nota3){
+
+    let mediaFinal = (nota1 + nota2 + nota3) / 3;
+    
+
+    if(mediaFinal >= 6 && mediaFinal <= 9.9){
+
+        console.log('Parabéns, você foi aprovado!');
+    }else if(mediaFinal >= 10) {
+        console.log('Parabéns, você foi o Orador da turma com média 10');
+    }else{
+        console.log('Lamento, reprovou!');
+    }
+    
+    return mediaFinal;
+
+};
+
+const resultado = calcularMedia(9, 6.8, 9);
+
+console.log(resultado);
+
+
+*/
 
 
 
+const calcularNumero = function(num1, num2){
 
+    let soma = num1 + num2;
+    return soma;
+}
 
+let resultado = calcularNumero(10, 3);
+
+console.log(resultado)
 
 
 
