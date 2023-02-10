@@ -154,9 +154,12 @@ let imPar = function(numero){
     return;
 }
 
-let resultado1 = imPar(5);
+let resultado1 = imPar(5);//
 
 console.log(resultado1);
 
 */
 
+//ARROW FUNCTION
+
+const media = 
