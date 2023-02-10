@@ -175,4 +175,7 @@ console.log(resultado(5, 517, 5))
 
 //ESCOPO DE FUNÇÕES - Global x Local
 
+// dentro de uma função, pode acessar variáveis globais e locais;
+// fora de uma função, só pode acessar variáveis globais;
+
 
