@@ -116,10 +116,6 @@ const resultado = calcularMedia(9, 6.8, 9);
 console.log(resultado);
 
 
-*/
-
-
-
 const calcularNumero = function(num1, num2){
 
     let soma = num1 + num2;
@@ -131,5 +127,36 @@ let resultado = calcularNumero(10, 3);
 console.log(resultado)
 
 
+//CALCULAR MEDIA USANDO ARROW FUNCTION
+
+const calcularMedia = (nota1, nota2, nota3) => {
+
+    let mediaFinal = (nota1 + nota2 + nota3) / 3;
+
+    return mediaFinal;
+}
+
+const resultado = calcularMedia(5, 312321, 5);
+
+console.log(resultado);
+
+*/
 
 
+let imPar = function(numero){
+
+    let calcular = numero % 2;
+
+    if(calcular === 0){
+
+        console.log(`O número é par, pois o resto é 0.`);
+    }else if(calcular != 0){
+        console.log(`O numero é impar, pois o resto é diferente de 0.`);
+    }
+
+    return;
+}
+
+let resultado1 = imPar(5);
+
+console.log(resultado1);
