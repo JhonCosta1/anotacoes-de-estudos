@@ -47,7 +47,7 @@ console.log(nome, sobrenome, idade, valorEmprestimo, numAnos, bomPagador)
 
 */
 
-//FUNÇÃO COM EXPRESSÃO
+/* FUNÇÃO COM EXPRESSÃO
 
 const media = function calcularMedia(num1, num2, num3){
 
@@ -62,4 +62,34 @@ const media2 = function (num1, num2, num3){
 
     let mediaNum = (num1 + num2 + num3) / 3;
     return mediaNum;
-}
+} 
+
+*/function calcularMedia(nota1, nota2, nota3){
+
+    let mediaFinal = (nota1 + nota2 + nota3) / 3;
+    
+
+    if(mediaFinal >= 6 && mediaFinal <= 9.9){
+
+        console.log('Parabéns, você foi aprovado!');
+    }else if(mediaFinal >= 10) {
+        console.log('Parabéns, você foi o Orador da turma com média 10');
+    }else{
+        console.log('Lamento, reprovou!');
+    }
+    
+    return mediaFinal;
+
+};
+
+
+calcularMedia(10, 10, 10)
+
+
+
+
+
+
+
+
+
