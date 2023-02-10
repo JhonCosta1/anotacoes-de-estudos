@@ -171,7 +171,7 @@ let resultado = calcularMedia;
 
 console.log(resultado(5, 517, 5))
 
-*/
+
 
 //ESCOPO DE FUNÇÕES - Global x Local
 
@@ -179,3 +179,26 @@ console.log(resultado(5, 517, 5))
 // fora de uma função, só pode acessar variáveis globais;
 
 
+//PARAMETROS DE UMA FUNÇÃO
+
+//default - definir um valor padrão para o parametro da função caso não seja informado nenhuma entrada
+
+let estaChovendo;
+
+let tempoHoje = function(tempo){
+
+    estaChovendo = tempo;
+
+    if(estaChovendo === "sim"){
+
+        console.log("Que pena! Está chovendo.");
+    }else{
+        console.log("Ótimo! Está SOL.");
+    }
+
+}
+
+
+tempoHoje();
+
+*/
