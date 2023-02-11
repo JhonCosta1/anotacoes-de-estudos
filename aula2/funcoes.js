@@ -275,3 +275,16 @@ classificarSuspeito();
 //console.log(array1[0]);
 
 
+//COMO ADICIONAR ELMENTOS A UM ARRAY
+
+//const frutas = [];
+//frutas[0] = "uva";
+
+// TROCAR ELEMENTO
+//frutas[0] = "maça";
+
+//console.log(frutas.length);
+// .length - retorna tamanho do array
+
+//METODOS ARRAYS
+
