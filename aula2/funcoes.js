@@ -262,3 +262,5 @@ classificarSuspeito();
 
 // ARRAY
 
+// array - número de index começa do 0
+// array - lista, armazena valores, variável, objetos
