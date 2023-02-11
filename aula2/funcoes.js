@@ -354,3 +354,17 @@ frutas.forEach((fruta, indice) => {
 })
 */
 
+const lista = ["Jhon", "Natalia", "Carol", "Rodrigo", "Nathan"];
+
+ function adicionarPessoa(pessoa){
+
+    lista.push(pessoa);
+
+    console.log(lista);
+
+    return;
+
+ }
+
+
+ adicionarPessoa("Bolinha");
