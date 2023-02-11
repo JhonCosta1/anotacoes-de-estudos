@@ -269,3 +269,9 @@ classificarSuspeito();
 // const array1 = ["elemento0", "elemento1"];
 // const array2 = Array("elemento0", "elemento1");
 // const array3 = new Array ("elemento0", "elemento1");
+
+//COMO ACESSAR ELEMENTOS DO ARRAY
+//const array1 = ["elemento0", "elemento1"];
+//console.log(array1[0]);
+
+
