@@ -403,8 +403,64 @@ function classificarAluno(alunos){
 
 classificarAluno();
 
+
+
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let numeroPAR = [];
+let numeroImpar = [];
+
+function distribuirNumeros(numbers){
+
+    for(let i = 0; i < numbers.length; i++){
+
+        let numero = numbers[i];
+        
+        if(numero % 2 === 0){
+
+            numeroPAR.push(numero);
+        }else if( numero % 2 === 1){
+
+            numeroImpar.push(numero);
+        }
+    }
+
+    return {numeroPAR, numeroImpar}
+}
+
+
+let resultado = distribuirNumeros(numbers);
+
+console.log(resultado.numeroImpar);
+console.log(resultado.numeroPAR);
+
+
+
 */
 
+
+let lista = [0, 1, 2, 3, 4, 5, 6, 7];
+
+function removerElemento(removerNumero){
+
+    
+    
+    
+    
+    let removerElemento = lista;
+
+    removerElemento.shift()
+
+    return removerElemento;
+
+}
+
+
+
+removerElemento();
+
+console.log(lista);
 
 
 
