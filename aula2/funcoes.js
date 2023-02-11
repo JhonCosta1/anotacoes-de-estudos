@@ -288,3 +288,22 @@ classificarSuspeito();
 
 //METODOS ARRAYS
 
+//push() - adicionar elementos ao final do array e retorna o comprimento
+//const frutas = ["manga", "uva"];
+//frutas.push("pera");
+//console.log(frutas); ["manga", "uva", "pera"]
+
+
+//unshift() - adicionar elementos ao inicio do array e retorna o comprimento
+//const frutas = ["manga", "uva"];
+//frutas.unshift("pera");
+//console.log(frutas); ["pera", "manga", "uva",]
+
+//pop() - remove o último elemento do array
+//shift() - remove o primeiro elemento do array
+
+//splice() - remove intervalos de elementos
+//frutas.splice(3, 2) - a partir do elmento 3, 2 dados serão removidos
+
+//odernar array - sort()
+//reverter array - reverse()
