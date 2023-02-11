@@ -369,20 +369,42 @@ const lista = ["Jhon", "Natalia", "Carol", "Rodrigo", "Nathan"];
 
  adicionarPessoa("Bolinha");
 
- */
+ 
 
-let listaAprovados = [];
-let listaReprovados = [];
-let nota;
+ let listaAprovados = [];
+ let listaReprovados = [];
 
-function calcularNota(){
+let Alunos = [
+    {nome: "Jhon Costa", nota: 8.5},
+    {nome: "Jane Doe", nota: 7.5},
+    {nome: "Jim Smith", nota: 4.5}
+  ];
+  
 
-    let nota = Math.floor(Math.random() * 11);
-    console.log(nota);
-   return nota;
-};
 
-calcularNota()
+function classificarAluno(alunos){
+
+
+    for(let i = 0; i < Alunos.length; i++){
+
+        let aluno = Alunos[i];
+
+        if(aluno.nota >= 6 && aluno.nota <= 10 ){
+            listaAprovados.push(aluno);
+        }else if(aluno.nota >= 0 && aluno.nota <= 5.0){
+            listaReprovados.push(aluno);
+        }
+    }
+
+    return {listaAprovados, listaReprovados};
+
+}
+
+
+classificarAluno();
+
+*/
+
 
 
 
