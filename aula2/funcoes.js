@@ -258,3 +258,7 @@ function classificarSuspeito(contadorSim){
 
 classificarSuspeito();
 */
+
+
+// ARRAY
+
