@@ -201,7 +201,7 @@ let tempoHoje = function(tempo){
 
 tempoHoje();
 
-*/
+
 
 //PARÊMETRO REST
 
@@ -257,3 +257,4 @@ function classificarSuspeito(contadorSim){
 
 
 classificarSuspeito();
+*/
