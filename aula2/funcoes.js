@@ -312,3 +312,10 @@ classificarSuspeito();
 //map() - mapeia o array original para gerar um novo
 //filter() - filtra os elementro do array e gera um novo
 //find() - obtem o valor do primeiro elewmento do array que satisfaz a condição
+
+
+//math.random() - rtornar número aleatorio
+//math.floor() - numero aleatorio arredondado pra baixo
+//console.log(Math.floor(Math.random() * 3))
+
+
