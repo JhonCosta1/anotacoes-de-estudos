@@ -307,3 +307,8 @@ classificarSuspeito();
 
 //odernar array - sort()
 //reverter array - reverse()
+
+
+//map() - mapeia o array original para gerar um novo
+//filter() - filtra os elementro do array e gera um novo
+//find() - obtem o valor do primeiro elewmento do array que satisfaz a condição
