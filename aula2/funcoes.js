@@ -352,7 +352,7 @@ frutas.forEach((fruta, indice) => {
     console.log(fruta);
     console.log("fruta " + indice + ": " + fruta);
 })
-*/
+
 
 const lista = ["Jhon", "Natalia", "Carol", "Rodrigo", "Nathan"];
 
@@ -368,3 +368,27 @@ const lista = ["Jhon", "Natalia", "Carol", "Rodrigo", "Nathan"];
 
 
  adicionarPessoa("Bolinha");
+
+ */
+
+let listaAprovados = [];
+let listaReprovados = [];
+let nota;
+
+function calcularNota(){
+
+    let nota = Math.floor(Math.random() * 11);
+    console.log(nota);
+   return nota;
+};
+
+calcularNota()
+
+
+
+
+
+
+
+
+
