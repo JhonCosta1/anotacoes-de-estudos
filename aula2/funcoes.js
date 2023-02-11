@@ -264,3 +264,8 @@ classificarSuspeito();
 
 // array - número de index começa do 0
 // array - lista, armazena valores, variável, objetos
+
+// ARRAY - CRIAR
+// const array1 = ["elemento0", "elemento1"];
+// const array2 = Array("elemento0", "elemento1");
+// const array3 = new Array ("elemento0", "elemento1");
