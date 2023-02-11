@@ -265,7 +265,7 @@ classificarSuspeito();
 // array - número de index começa do 0
 // array - lista, armazena valores, variável, objetos
 
-// ARRAY - CRIAR
+/* ARRAY - CRIAR
 // const array1 = ["elemento0", "elemento1"];
 // const array2 = Array("elemento0", "elemento1");
 // const array3 = new Array ("elemento0", "elemento1");
@@ -318,4 +318,39 @@ classificarSuspeito();
 //math.floor() - numero aleatorio arredondado pra baixo
 //console.log(Math.floor(Math.random() * 3))
 
+
+///PERCORRER ARRAY
+
+// FOR tradicional
+
+const frutas = ["melancia", "uva", "pera", "maça"];
+
+for(let i = 0; i < frutas.length; i++){
+    console(frutas[i]);
+}
+
+
+FOR in
+
+for(let indices in frutas){
+
+    console.log(frutas[indices]);
+}
+
+
+//FOR of
+
+for(let fruta in frutas){
+
+    console.log(fruta);
+}
+
+//forEach
+
+frutas.forEach((fruta, indice) => {
+
+    console.log(fruta);
+    console.log("fruta " + indice + ": " + fruta);
+})
+*/
 
