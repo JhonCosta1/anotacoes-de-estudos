@@ -441,11 +441,30 @@ console.log(resultado.numeroPAR);
 
 
 
-let notas = [10, 5, 7];
+let alunos = [
+    { nome: "Mateus", tirou: 10},
+    { nome: "jhon", tirou: 5},
+    { nome: "Carol", tirou: 7},
+];
+
+let alunosAprovados = [];
+let alunosReprovados = [];
 
 
+alunos.forEach((nome, notas) => {
+    
+    if(alunos.tirou === 7){
+        alunosAprovados.push(nome);
+    }else if(alunos.tirou === 10){
+        alunosAprovados.push(nome);
+    }else{
+        alunosReprovados.push(nome);
+    };
 
+    return {alunosAprovados, alunosReprovados};
+});
 
+console.log(alunosAprovados, alunosReprovados);
 
 
 
