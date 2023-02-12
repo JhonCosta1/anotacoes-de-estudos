@@ -440,27 +440,8 @@ console.log(resultado.numeroPAR);
 */
 
 
-let lista = [0, 1, 2, 3, 4, 5, 6, 7];
-
-function removerElemento(removerNumero){
-
-    
-    
-    
-    
-    let removerElemento = lista;
-
-    removerElemento.shift()
-
-    return removerElemento;
-
-}
 
 
-
-removerElemento();
-
-console.log(lista);
 
 
 
