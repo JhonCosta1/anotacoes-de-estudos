@@ -441,8 +441,7 @@ console.log(resultado.numeroPAR);
 
 
 
-
-
+let notas = [10, 5, 7];
 
 
 
