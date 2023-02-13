@@ -468,7 +468,7 @@ alunos.forEach((nomeEnotaDoAluno) => {
 
 console.log(alunosAprovados, alunosReprovados);
 
-*/
+
 
 
 //ORIENTAÇÃO A OBJETOS
@@ -476,3 +476,37 @@ console.log(alunosAprovados, alunosReprovados);
 //coleções de propriedades - chave: valor
 // método - chave: function()
 
+
+//NOTAÇÃO LITERAL
+const carro = {
+    nome: "Fiesta",
+    cor: "azul"
+    ano: 2015,
+    motor: [126, 1.6]
+};
+
+//Objetos aninhados
+
+const carro = {
+    nome: "Fiesta",
+    cor: "azul"
+    ano: 2015,
+    motor: {
+        cavalos: 126,
+        cilindradas: 1,6
+    }
+};
+
+console.log(carro.motor.cavalos);
+
+
+//acessando objeto
+
+carro.nome; ou carro['nome'];
+carro.marca; ou carro['marca'];
+console.log(carro.nome, carro.marca);
+
+
+
+
+*/
