@@ -470,3 +470,9 @@ console.log(alunosAprovados, alunosReprovados);
 
 */
 
+
+//ORIENTAÇÃO A OBJETOS
+
+//coleções de propriedades - chave: valor
+// método - chave: function()
+
