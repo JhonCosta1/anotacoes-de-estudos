@@ -437,7 +437,7 @@ console.log(resultado.numeroPAR);
 
 
 
-*/
+
 
 
 
@@ -468,5 +468,5 @@ alunos.forEach((nomeEnotaDoAluno) => {
 
 console.log(alunosAprovados, alunosReprovados);
 
-
+*/
 
