@@ -533,6 +533,15 @@ const carro = {
     }
 };
 
+//METODOS POO
+
+keys() - retornar array com chaves de cada atributo do Objeto
+values() - rewtorno array com valore de cada propriedade
+entries() - retorna array com elementros array para cada chaves
+assign() - copia propriedade de um bojeto para um destino
+
+//Acessar objeto com For of
+
 
 */
 
