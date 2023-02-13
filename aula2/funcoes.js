@@ -542,6 +542,37 @@ assign() - copia propriedade de um bojeto para um destino
 
 //Acessar objeto com For of
 
+const carro = {
+    nome: "Fiesta",
+    cor: "azul"
+    ano: 2015,
+    motor: {
+        
+};
+
+for(const [chave, valor] of object.entries(carro)){
+
+    console.log(`${chave} : {valor}`);
+
+}
+
+
+// DESESTRUTURAR
+
+const carro = {
+    nome: "Fiesta",
+    cor: "azul"
+    ano: 2015,
+    motor: {
+        
+};
+
+
+const {dono, placa} = carro;
+
+
+
+
 
 */
 
