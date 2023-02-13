@@ -499,6 +499,9 @@ const carro = {
 
 console.log(carro.motor.cavalos);
 
+//Alterar valor
+
+carro.cor = "verde";
 
 //acessando objeto
 
@@ -506,7 +509,30 @@ carro.nome; ou carro['nome'];
 carro.marca; ou carro['marca'];
 console.log(carro.nome, carro.marca);
 
+// inserir valores no objeto
 
+carro.consumo = 11;
+
+//deletar dados de OO
+
+delete carro.emplacado;
+
+
+//MÉTODOS
+
+const carro = {
+    nome: "Fiesta",
+    cor: "azul"
+    ano: 2015,
+    motor: {
+        cavalos: 126,
+        cilindradas: 1,6
+    },
+    autonomia: function(){
+        return 'O ${this.nome} percorre 
+    }
+};
 
 
 */
+
