@@ -529,7 +529,7 @@ const carro = {
         cilindradas: 1,6
     },
     autonomia: function(){
-        return 'O ${this.nome} percorre 
+        return 'O ${this.nome} percorre ${this.consumo * this.capacidadeTanque} Km com um tanque;
     }
 };
 
