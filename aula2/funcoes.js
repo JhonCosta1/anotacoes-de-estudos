@@ -576,3 +576,19 @@ const {dono, placa} = carro;
 
 */
 
+
+
+const carro = {
+    nome: "Fiesta",
+    marca: "Ford",
+    cor: "Amarelo",
+    ano: 2012,
+    emplacado: true,
+    motor: {
+        cavalos: 126,
+        cilindradas:1.6
+    }
+};
+
+
+
