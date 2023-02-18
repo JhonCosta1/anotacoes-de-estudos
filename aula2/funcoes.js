@@ -574,7 +574,7 @@ const {dono, placa} = carro;
 
 
 
-*/
+
 
 
 
@@ -611,3 +611,15 @@ const carro1 = {
 // TRATANDO ERRO JS
 //tipos de erros
 //SINTAXE / LOGICA / EXECUÇÃO
+
+
+try{
+    //tente executar
+}catch(erro){
+
+    //se der erro, execute aqui
+}
+
+
+
+*/
