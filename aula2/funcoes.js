@@ -609,3 +609,5 @@ const carro1 = {
 
 
 // TRATANDO ERRO JS
+//tipos de erros
+//SINTAXE / LOGICA / EXECUÇÃO
