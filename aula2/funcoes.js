@@ -608,4 +608,4 @@ const carro1 = {
 //objetos
 
 
-// SEMANA OFF PARA ESTUDAR ESTÁGIO
+// TRATANDO ERRO JS
