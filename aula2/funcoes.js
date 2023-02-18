@@ -591,7 +591,7 @@ const carro = {
 };
 
 
-const carro = {
+const carro1 = {
     nome: "Fiesta",
     marca: "Ford",
     cor: "Amarelo",
