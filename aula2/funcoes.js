@@ -623,4 +623,11 @@ try{
 // 
 // DOM
 
+//METODOS DE ACESSO - DOM
+
+// getElementById()
+// getElementByClassName()
+// getElementByTagName()
+// querySelector()
+
 */
