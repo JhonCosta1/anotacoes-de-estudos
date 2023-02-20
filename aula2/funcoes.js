@@ -625,9 +625,9 @@ try{
 
 //METODOS DE ACESSO - DOM
 
-// getElementById()
-// getElementByClassName()
-// getElementByTagName()
+// getElementById() - acessar elemento HTML pelo ID: elemento = document.getElementByid('id');
+// getElementByClassName()  - acessar elemento HTML pela CLASS: elemento = document.getElementByClassName('ClassName');
+// getElementByTagName() - acessar elemento HTML pela TAG: elemento = document.getElementByTagName('tag');
 // querySelector()
 
 */
