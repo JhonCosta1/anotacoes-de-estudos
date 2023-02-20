@@ -620,6 +620,7 @@ try{
     //se der erro, execute aqui
 }
 
-// throw - lançar exceções
+// 
+// DOM
 
 */
