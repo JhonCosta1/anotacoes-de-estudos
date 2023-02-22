@@ -641,4 +641,15 @@ try{
 
 //Callback - função executada em tempo futuro
 
+//PROMISSES - pendente, cumprida, rejeitada
+
+constt promise = new Promise((resolve, reject)) => {
+
+    if(true){
+        resolve();
+    }else(
+        {reject}
+    )
+}
+
 */
