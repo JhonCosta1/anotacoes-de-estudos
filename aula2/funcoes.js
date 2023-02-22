@@ -630,4 +630,10 @@ try{
 // getElementByTagName() - acessar elemento HTML pela TAG: elemento = document.getElementByTagName('tag');
 // querySelector()
 
+
+
+//PROGRAMAÇÃO ASSINCRONA JS
+
+
+
 */
