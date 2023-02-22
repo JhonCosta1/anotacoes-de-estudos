@@ -635,5 +635,8 @@ try{
 //PROGRAMAÇÃO ASSINCRONA JS
 
 
+//sincrono - comando é executado somente quando o comando anterior terminr
+// assincrona - executa código sem esperar o bloco anterior
+
 
 */
