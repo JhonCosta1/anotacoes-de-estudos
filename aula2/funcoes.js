@@ -639,4 +639,6 @@ try{
 // assincrona - executa código sem esperar o bloco anterior
 
 
+//Callback - função executada em tempo futuro
+
 */
