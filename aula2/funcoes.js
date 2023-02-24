@@ -684,5 +684,13 @@ const regexObjeto = new RegExp("\([0-9]{2}\) 9 [0-9]{4}-[0-9]{4}");
 /const regex = /Hello$/; => para saber se esta no FIM da string
 /console.log(regex.test(stringTest)); //true
 
+//MATCH e EXEC
+
+/Match - recupera o reultado da correspondencia de uma string com uma expressão regular
+/ string.match(regex)
+
+/Exec
+
+/regex.exec(string)
 
 */
