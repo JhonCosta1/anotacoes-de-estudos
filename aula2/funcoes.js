@@ -654,4 +654,8 @@ constt promise = new Promise((resolve, reject)) => {
 
 // Async - Away
 
+//REGEX
+/identificar cadeias de caracteres de interesse, como caracteres particulares, palavras ou padrões.
+
+
 */
