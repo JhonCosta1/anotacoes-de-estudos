@@ -673,4 +673,16 @@ const regexLiteral = /\([0-9]{2}\) 9 [0-9]{4}-[0-9]{4}/;
 //REGEX Objeto RegExp
 
 const regexObjeto = new RegExp("\([0-9]{2}\) 9 [0-9]{4}-[0-9]{4}");
+
+//TEST
+
+/exetura busca uma correspondencia entre uma expressão regurar e uma string
+
+/const stringTest = "Hello World";
+/const regex = /Hello/;
+/const regex = /^Hello/; => para saber se esta no começo da string
+/const regex = /Hello$/; => para saber se esta no FIM da string
+/console.log(regex.test(stringTest)); //true
+
+
 */
