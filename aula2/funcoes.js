@@ -658,4 +658,19 @@ constt promise = new Promise((resolve, reject)) => {
 /identificar cadeias de caracteres de interesse, como caracteres particulares, palavras ou padrões.
 
 
+//CRIANDO REGEX
+
+
+
+
+
+
+
+//REGEX LITERAL
+
+const regexLiteral = /\([0-9]{2}\) 9 [0-9]{4}-[0-9]{4}/;
+
+//REGEX Objeto RegExp
+
+const regexObjeto = new RegExp("\([0-9]{2}\) 9 [0-9]{4}-[0-9]{4}");
 */
