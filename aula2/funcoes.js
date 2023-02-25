@@ -699,4 +699,6 @@ const regexObjeto = new RegExp("\([0-9]{2}\) 9 [0-9]{4}-[0-9]{4}");
 /pagina dinâmica
 / solicitação htttp ao servidor sem carregar pagina  total
 
+/ HTTP - get / post / PUT / PATCH /DELETE
+
 */
