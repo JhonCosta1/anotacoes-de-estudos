@@ -696,6 +696,7 @@ const regexObjeto = new RegExp("\([0-9]{2}\) 9 [0-9]{4}-[0-9]{4}");
 
 //AJAX
 
-/
+/pagina dinâmica
+/ solicitação htttp ao servidor sem carregar pagina  total
 
 */
